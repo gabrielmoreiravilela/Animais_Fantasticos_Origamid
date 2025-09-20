@@ -68,7 +68,7 @@ body {
 
 }
 
-.animais-descricao h2 {
+.animais h2 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1rem;
     text-transform: uppercase;
@@ -77,8 +77,15 @@ body {
     color: #E54;
 }
 
-.animais-descricao p {
+.animais p {
     font-family: Helvetica, Arial;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
+
+.animais-lista {
+    height: 370px;
+    overflow-y:scroll ;
+    grid-column: 2;
+}
+
